@@ -25,7 +25,8 @@ Repositori ini disusun secara transparan dan jujur: **semua fitur yang bekerja, 
 | **Jaringan Nirkabel** | Intel Wi-Fi AX201 & Intel Bluetooth | 🟡 Bekerja (Sonoma: Native Airport; Sequoia: itlwm) |
 | **Keyboard & Touchpad** | Dell Detachable Folio Cover (`044E:1218`) | ✅ Keyboard, Fn keys, & Alps Touchpad aktif |
 | **Layar Sentuh** | Intel I2C Multitouch & Stylus Pen | 🟡 Sentuhan dasar & Stylus hover/klik aktif |
-| **Kamera** | Webcam Depan UVC USB | ✅ Bekerja normal di FaceTime / Zoom |
+| **Kamera** | Depan 5M (`0bda:5671`) & Belakang 8M (`0bda:565e`) | ✅ Keduanya UVC USB (Depan native; Belakang via selector) |
+| **Modem Seluler / SIM** | Dell DW5821e Snapdragon X20 LTE (`413c:81e0`) | 🟡 Bekerja via PPP bridge (SIM Ready, IP didapat) |
 | **MicroSD Reader** | Realtek Card Reader (PCIe) | 🔴 Tidak stabil / Sering timeout (Jangan gunakan) |
 | **Fingerprint** | Sensor Sidik Jari Goodix | 🔴 Tidak didukung (Tidak ada driver macOS) |
 
@@ -62,7 +63,7 @@ Repositori ini disusun secara transparan dan jujur: **semua fitur yang bekerja, 
 ### 🔴 Tidak Bekerja (Batasan Hardware):
 - [ ] **Sensor Sidik Jari (Fingerprint Reader)**: Tidak didukung di macOS (tidak ada driver untuk Touch ID pihak ketiga).
 - [ ] **Slot MicroSD Reader**: Driver `RealtekCardReader.kext` mendeteksi hardware tetapi inisialisasi media sering `CMD8 timeout` / `ACMD41 NOT READY`. **Tidak disarankan untuk transfer data penting**.
-- [ ] **Kamera Belakang & Windows Hello IR**: Sensor biometrik inframerah dan sensor IPU4 tidak didukung macOS.
+- [ ] **Kamera Windows Hello IR**: Sensor biometrik inframerah tidak didukung macOS (sedangkan kamera belakang 8M adalah kamera UVC USB standar yang didukung).
 - [ ] **Rotasi Layar Otomatis**: Sensor akselerometer tablet tidak terintegrasi ke sistem rotasi macOS.
 
 ---
