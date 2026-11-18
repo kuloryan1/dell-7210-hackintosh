@@ -1,0 +1,8 @@
+{
+  "Output": "/run/archiso/bootmnt/HACKINTOSH-AUDIT/hasil-linux-20261025-003250-688",
+  "ZIP": "/run/archiso/bootmnt/HACKINTOSH-AUDIT/hasil-linux-20261025-003250-688.zip",
+  "ACPITables": 33,
+  "UniqueSSDT": 17,
+  "MacOSVerified": false,
+  "Notes": []
+}

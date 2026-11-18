@@ -1,0 +1,34 @@
+AMI USB Driver
+Serial ATA Controller Initialization Driver
+Generic Disk I/O Driver
+Partition Driver(MBR/GPT/El Torito)
+PCI Serial Driver
+Integrated Touch Driver
+Ami HID keyboard Driver
+Ami HID Absolute Pointer
+Ami HID Simple Pointer
+ARP Network Service Driver
+MNP Network Service Driver
+TCP Network Service Driver
+UEFI PXE Base Code Driver
+UEFI HTTP Boot Driver
+Simple Network Protocol Driver
+HttpDxe
+VLAN Configuration Driver
+DNS Network Service Driver
+DHCP Protocol Driver
+IP4 Network Service Driver
+MTFTP4 Network Service
+UDP Network Service Driver
+IP6 Network Service Driver
+UDP6 Network Service Driver
+DHCP6 Protocol Driver
+MTFTP6 Network Service Driver
+FAT File System Driver
+AMI NTFS Driver
+Realtek USB UNDI Driver
+TPM Driver
+ST firmware upgrade DXE Driver
+Intel(R) GOP Driver [9.0.1105]
+Fsw hfsplus File System Driver
+APFS

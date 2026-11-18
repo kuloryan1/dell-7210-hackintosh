@@ -1,0 +1,31 @@
+{
+  "State": "complete",
+  "StartedAtUtc": "2026-10-27T13:58:00.708704+00:00",
+  "Model": "Latitude 7210 2-in-1",
+  "OutputDirectory": "hasil-linux-20261027-135800-673",
+  "USBBytes": 62723719168,
+  "MacOSFunctionalityTested": false,
+  "FinishedAtUtc": "2026-10-27T13:58:04.321367+00:00",
+  "ResultZIP": "hasil-linux-20261027-135800-673.zip",
+  "ResultZIPSHA256": "294997ba1cb1d1370d6aa5d4d678a04beded75918f65f11b374f8e0995998f74",
+  "ComparisonFile": "comparison-20261027-135800-673.json",
+  "Comparison": {
+    "BIOSMatchesWindows": true,
+    "DSDTMatchesWindows": true,
+    "AllKnownWindowsSSDTsFound": true,
+    "WindowsExpectedSSDT": 8,
+    "NativeUniqueSSDT": 17,
+    "NativeSSDTNotInWindowsExport": 13,
+    "BadStandardACPIChecksums": [],
+    "AudioCodecFiles": 2,
+    "HIDDescriptorFiles": 2,
+    "USBDescriptorFiles": 7,
+    "CFGLockStatus": "LOCKED",
+    "GraphicsPreallocatedMiB": 64,
+    "IIOSensorsFound": 9,
+    "CollectionWarnings": [],
+    "MacOSFunctionalityTested": false,
+    "Limit": "Compare raw files and firmware identity before declaring ACPI coverage complete; this is not a macOS test."
+  },
+  "CollectedDataRequiresReview": true
+}

@@ -1,0 +1,25 @@
+#!/bin/bash
+# VoltageShift Safe Guard Wrapper for Dell Latitude 7210 (Intel Core i7-10610U)
+# Mencegah kernel panic (#GP Type 13) akibat pembacaan MSR yang tidak didukung hardware
+
+RAW="${HOME}/.local/bin/voltageshift-raw"
+if [ ! -x "$RAW" ]; then
+    RAW="/usr/local/bin/voltageshift-raw"
+fi
+
+if [ ! -x "$RAW" ]; then
+    echo "Error: Binary raw voltageshift tidak ditemukan di $RAW" >&2
+    exit 1
+fi
+
+# Filter dan blokir MSR yang tidak didukung prosesor Comet Lake-U (contoh: 0x772 / 0x773)
+for arg in "$@"; do
+    case "$arg" in
+        0x772|0x773|772|773|0X772|0X773)
+            echo "Akses Ditolak: MSR $arg tidak didukung oleh Intel Comet Lake-U (diblokir demi mencegah Kernel Panic)." >&2
+            exit 1
+            ;;
+    esac
+done
+
+exec "$RAW" "$@"

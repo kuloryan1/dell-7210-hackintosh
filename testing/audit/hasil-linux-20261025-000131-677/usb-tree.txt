@@ -1,0 +1,28 @@
+/:  Bus 001.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/12p, 480M
+    |__ Port 002: Dev 002, If 0, Class=Hub, Driver=hub/6p, 480M
+        |__ Port 004: Dev 004, If 0, Class=Mass Storage, Driver=usb-storage, 480M
+        |__ Port 005: Dev 006, If 0, Class=Communications, Driver=cdc_ether, 480M
+        |__ Port 005: Dev 006, If 1, Class=CDC Data, Driver=cdc_ether, 480M
+    |__ Port 003: Dev 003, If 0, Class=Mass Storage, Driver=usb-storage, 480M
+    |__ Port 004: Dev 005, If 0, Class=Human Interface Device, Driver=usbhid, 12M
+    |__ Port 006: Dev 007, If 0, Class=Video, Driver=uvcvideo, 480M
+    |__ Port 006: Dev 007, If 1, Class=Video, Driver=uvcvideo, 480M
+    |__ Port 008: Dev 008, If 0, Class=Application Specific Interface, Driver=[none], 480M
+    |__ Port 008: Dev 008, If 1, Class=Chip/SmartCard, Driver=[none], 480M
+    |__ Port 008: Dev 008, If 2, Class=Chip/SmartCard, Driver=[none], 480M
+    |__ Port 008: Dev 008, If 3, Class=Vendor Specific Class, Driver=[none], 480M
+    |__ Port 009: Dev 009, If 0, Class=Vendor Specific Class, Driver=[none], 12M
+    |__ Port 010: Dev 010, If 0, Class=Wireless, Driver=btusb, 12M
+    |__ Port 010: Dev 010, If 1, Class=Wireless, Driver=btusb, 12M
+/:  Bus 002.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/6p, 10000M
+    |__ Port 002: Dev 002, If 0, Class=Video, Driver=uvcvideo, 5000M
+    |__ Port 002: Dev 002, If 1, Class=Video, Driver=uvcvideo, 5000M
+    |__ Port 004: Dev 003, If 0, Class=Communications, Driver=cdc_mbim, 5000M
+    |__ Port 004: Dev 003, If 1, Class=CDC Data, Driver=cdc_mbim, 5000M
+    |__ Port 004: Dev 003, If 2, Class=Vendor Specific Class, Driver=option, 5000M
+    |__ Port 004: Dev 003, If 3, Class=Vendor Specific Class, Driver=option, 5000M
+    |__ Port 004: Dev 003, If 4, Class=Vendor Specific Class, Driver=option, 5000M
+    |__ Port 004: Dev 003, If 5, Class=Vendor Specific Class, Driver=option, 5000M
+    |__ Port 004: Dev 003, If 6, Class=Vendor Specific Class, Driver=[none], 5000M
+/:  Bus 003.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/2p, 480M
+/:  Bus 004.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/2p, 10000M

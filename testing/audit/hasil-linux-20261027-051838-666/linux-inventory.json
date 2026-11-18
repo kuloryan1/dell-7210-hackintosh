@@ -1,0 +1,637 @@
+{
+  "CollectedAtUtc": "2026-10-27T05:18:41.583475+00:00",
+  "KernelRelease": "6.18.41-1-lts",
+  "Model": "Latitude 7210 2-in-1",
+  "Method": "Native Linux read-only sysfs/procfs inventory",
+  "Privacy": "No machine serials, machine UUIDs, MAC/IP addresses, license or recovery keys.",
+  "ValidationLimit": "Successful collection is not a macOS functionality test.",
+  "DMI": {
+    "sys_vendor": "Dell Inc.",
+    "product_name": "Latitude 7210 2-in-1",
+    "board_vendor": "Dell Inc.",
+    "board_name": "09XR7X",
+    "board_version": "A02",
+    "bios_vendor": "Dell Inc.",
+    "bios_version": "1.43.0",
+    "bios_date": "07/07/2026"
+  },
+  "CPU": [
+    "cpu family\t: 6",
+    "flags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp vnmi md_clear flush_l1d arch_capabilities",
+    "model\t\t: 142",
+    "model name\t: Intel(R) Core(TM) i7-10610U CPU @ 1.80GHz",
+    "stepping\t: 12",
+    "vendor_id\t: GenuineIntel"
+  ],
+  "ACPITables": [
+    {
+      "File": "acpi/static/APIC.dat",
+      "Signature": "APIC",
+      "Length": 188,
+      "HeaderLength": 188,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "1377c7efb13890f4fb9360bf562589f95c52edeaf0b63c87d11adf1c32a50ec5"
+    },
+    {
+      "File": "acpi/static/BGRT.dat",
+      "Signature": "BGRT",
+      "Length": 56,
+      "HeaderLength": 56,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "74b55919ec804ff2c3bba2c19570af7f2bac537fe52f6973723cd34128e2e18e"
+    },
+    {
+      "File": "acpi/static/BOOT.dat",
+      "Signature": "BOOT",
+      "Length": 40,
+      "HeaderLength": 40,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "d9c640db7f5b99075a42ee302413db8003406131444432a0c3c2d334f6fdc39d"
+    },
+    {
+      "File": "acpi/static/DBG2.dat",
+      "Signature": "DBG2",
+      "Length": 84,
+      "HeaderLength": 84,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "2fc635c859ca4cb9ba41f9aedb5e690412ecaa39f3bfd9cbd29d3af7da8b2325"
+    },
+    {
+      "File": "acpi/static/DBGP.dat",
+      "Signature": "DBGP",
+      "Length": 52,
+      "HeaderLength": 52,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "1fd367af15291a83f6da1c6d26fcde51bae75dd759bf746d77c80259408d33fa"
+    },
+    {
+      "File": "acpi/static/DMAR.dat",
+      "Signature": "DMAR",
+      "Length": 200,
+      "HeaderLength": 200,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "f55a5fc63e2ee6cd9cfea133e17f69f276af4aeb15c11538a3bbd60114d30693"
+    },
+    {
+      "File": "acpi/static/DSDT.dat",
+      "Signature": "DSDT",
+      "Length": 282292,
+      "HeaderLength": 282292,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "ce0596a71bb8aa6d796fbe609c51b58f174d107cd7b200cc95aade10d937ace0"
+    },
+    {
+      "File": "acpi/static/FACP.dat",
+      "Signature": "FACP",
+      "Length": 276,
+      "HeaderLength": 276,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "36947535e175edf38927f736771e0cc25092003dc3895e6c2c622c145f05b034"
+    },
+    {
+      "File": "acpi/static/FACS.dat",
+      "Signature": "FACS",
+      "Length": 64,
+      "HeaderLength": 64,
+      "ChecksumApplicable": false,
+      "ChecksumValid": null,
+      "SHA256": "edc303ed51618681af8e22c2dd4c1ef69541b2ea2548a87d199072ada30ba74c"
+    },
+    {
+      "File": "acpi/static/FIDT.dat",
+      "Signature": "FIDT",
+      "Length": 156,
+      "HeaderLength": 156,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "8565089550ce9b7d4ca36a373c0f5d694961dd0315db0c595a11219512b37d71"
+    },
+    {
+      "File": "acpi/static/FPDT.dat",
+      "Signature": "FPDT",
+      "Length": 68,
+      "HeaderLength": 68,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "dc5574b135a30bdf7d912060c48e643c1663dd29ffff0d700f7a5f5355533227"
+    },
+    {
+      "File": "acpi/static/HPET.dat",
+      "Signature": "HPET",
+      "Length": 56,
+      "HeaderLength": 56,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "4cd5f948f906268010f6e989261bbde076d172052ee45c41feeea511f5063ad4"
+    },
+    {
+      "File": "acpi/static/LPIT.dat",
+      "Signature": "LPIT",
+      "Length": 148,
+      "HeaderLength": 148,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "22e0e4706bc3fc730cc56ff7a9f6cbdd9f62d104435f3127b32bb43fbc35c19e"
+    },
+    {
+      "File": "acpi/static/MCFG.dat",
+      "Signature": "MCFG",
+      "Length": 60,
+      "HeaderLength": 60,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "aa40537fcbe4a25f05271081ec07b8dfd34dbf424877ccba17d95d9a797bdad2"
+    },
+    {
+      "File": "acpi/static/NHLT.dat",
+      "Signature": "NHLT",
+      "Length": 45,
+      "HeaderLength": 45,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "c8b9fc79149591128423915c03fe31dec4b0b6ada2174226d039932d752b74bc"
+    },
+    {
+      "File": "acpi/static/SSDT1.dat",
+      "Signature": "SSDT",
+      "Length": 8252,
+      "HeaderLength": 8252,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "2b10544720b378208c244f4fa3143afd33ab6dec7b8d63c731c0a22de719c6bc"
+    },
+    {
+      "File": "acpi/static/SSDT2.dat",
+      "Signature": "SSDT",
+      "Length": 5751,
+      "HeaderLength": 5751,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "6e8598954ccfcf31c661452dc209f9206e3dc4563eef2e901fa2aba938d8a785"
+    },
+    {
+      "File": "acpi/static/SSDT3.dat",
+      "Signature": "SSDT",
+      "Length": 4442,
+      "HeaderLength": 4442,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "29d8598ebb7f52fd3ea4f5fb34b05107a01d7a2ecaa2942bb6f16966699049fc"
+    },
+    {
+      "File": "acpi/static/SSDT4.dat",
+      "Signature": "SSDT",
+      "Length": 13236,
+      "HeaderLength": 13236,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "dde5e0b922f2dcec791ba59d04f9dd3255a44d3fc5e975f5dad3ccfcc4e61904"
+    },
+    {
+      "File": "acpi/static/SSDT5.dat",
+      "Signature": "SSDT",
+      "Length": 10016,
+      "HeaderLength": 10016,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "fe1c15fe3698c7d3748d2953619adaac3f959afe3e06e529d9c13a67cc05a175"
+    },
+    {
+      "File": "acpi/static/SSDT6.dat",
+      "Signature": "SSDT",
+      "Length": 7784,
+      "HeaderLength": 7784,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "7cc5d2d338e94a499f2d75a78b90475c4889b04746bcc2aba5476bb3f6de8c3d"
+    },
+    {
+      "File": "acpi/static/SSDT7.dat",
+      "Signature": "SSDT",
+      "Length": 2032,
+      "HeaderLength": 2032,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "0801e2c6ff220b1c98f649284642e152443273ca2cb0ed0ebb4bddfe17ccba3c"
+    },
+    {
+      "File": "acpi/static/SSDT8.dat",
+      "Signature": "SSDT",
+      "Length": 30649,
+      "HeaderLength": 30649,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "f058fb1082b319fd0b7eb547ce020c11cf42a5fd7dbcfe97d58ae43d5fb3b7ca"
+    },
+    {
+      "File": "acpi/static/TPM2.dat",
+      "Signature": "TPM2",
+      "Length": 76,
+      "HeaderLength": 76,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "8ef610bce078207f4bb82f0f4700eebda4aed5692e190adb3eb779a5ce7cccc9"
+    },
+    {
+      "File": "acpi/dynamic/SSDT10.dat",
+      "Signature": "SSDT",
+      "Length": 1442,
+      "HeaderLength": 1442,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "af316264b576dfca2e47b448e9c02bb378c5d252cf03312ba274324d11f439c1"
+    },
+    {
+      "File": "acpi/dynamic/SSDT11.dat",
+      "Signature": "SSDT",
+      "Length": 252,
+      "HeaderLength": 252,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "de95017ec62ad086e7ff866aff5ea86edcaa92e4a1f8aa0630e56179b04395b4"
+    },
+    {
+      "File": "acpi/dynamic/SSDT12.dat",
+      "Signature": "SSDT",
+      "Length": 364,
+      "HeaderLength": 364,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "041ad2b1195dab9c54c5179b152067cebffcb7690fd2df4ac1d1b1f4bdc92956"
+    },
+    {
+      "File": "acpi/dynamic/SSDT13.dat",
+      "Signature": "SSDT",
+      "Length": 3050,
+      "HeaderLength": 3050,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "4859ca7a07c0f7c423ee9bd139c89d5bf733c2c121b326d0ad09097e5ea5f92e"
+    },
+    {
+      "File": "acpi/dynamic/SSDT14.dat",
+      "Signature": "SSDT",
+      "Length": 1912,
+      "HeaderLength": 1912,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "a134a11f01962a91a1f336657259a3aec41e6a8aee43a6c850a3f83b00b1915d"
+    },
+    {
+      "File": "acpi/dynamic/SSDT15.dat",
+      "Signature": "SSDT",
+      "Length": 983,
+      "HeaderLength": 983,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "301127f0de284b4e57c0f84837b88635f607ccc7b2fc9e363afe76a27cd38de5"
+    },
+    {
+      "File": "acpi/dynamic/SSDT16.dat",
+      "Signature": "SSDT",
+      "Length": 3362,
+      "HeaderLength": 3362,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "0e33ca1cbae9f27d0bc3339350b21b7069368d60df67428ea96d6d2388ff5b0f"
+    },
+    {
+      "File": "acpi/dynamic/SSDT17.dat",
+      "Signature": "SSDT",
+      "Length": 970,
+      "HeaderLength": 970,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "047e0d2a1bd4c001283177c70d96bd3a093264666c4f4fd89e4fcff9bfb2afcf"
+    },
+    {
+      "File": "acpi/dynamic/SSDT9.dat",
+      "Signature": "SSDT",
+      "Length": 1024,
+      "HeaderLength": 1024,
+      "ChecksumApplicable": true,
+      "ChecksumValid": true,
+      "SHA256": "704d7d292764d3ddc0b07fa32afc07daf6b0162f49d7c660a5e755b301c27f9a"
+    }
+  ],
+  "UniqueSSDTCount": 17,
+  "SSDTCoverageNote": "Compare the actual exported tables with the Windows count of eight; collection alone does not prove coverage.",
+  "HIDReportDescriptors": [
+    {
+      "HIDNode": "0003:044E:1218.0001",
+      "File": "hid-report-descriptors/0003_044E_1218.0001.bin",
+      "Length": 325,
+      "SHA256": "46d2770f328e24808ba9e3e1e35c3c6a8d57066773826217f9daa3335b65a679"
+    },
+    {
+      "HIDNode": "0018:056A:48CD.0002",
+      "File": "hid-report-descriptors/0018_056A_48CD.0002.bin",
+      "Length": 1014,
+      "SHA256": "63bc46611962dea5397434a3f051909ccf0616cd0a5e660713188c14cc31a275"
+    }
+  ],
+  "USBDescriptors": [
+    {
+      "USBNode": "1-10",
+      "VID": "8087",
+      "PID": "0026",
+      "CurrentConfigurationValue": "1",
+      "File": "usb-descriptors/1-10-8087-0026.bin",
+      "Length": 218,
+      "SHA256": "8695767bcd7159d599672ca4c88b345209720bdf0f225d5f8c668694a3e0deae"
+    },
+    {
+      "USBNode": "1-4",
+      "VID": "044e",
+      "PID": "1218",
+      "CurrentConfigurationValue": "1",
+      "File": "usb-descriptors/1-4-044e-1218.bin",
+      "Length": 52,
+      "SHA256": "3d5537306fe0773df7b64b2bd09a5300c8854dbba9179753fca5043c9da5c3ba"
+    },
+    {
+      "USBNode": "1-6",
+      "VID": "0bda",
+      "PID": "5671",
+      "CurrentConfigurationValue": "1",
+      "File": "usb-descriptors/1-6-0bda-5671.bin",
+      "Length": 808,
+      "SHA256": "1931e03c5043d79db8f427865a7d0b86588e598d9b742e233d15f2fd2543602b"
+    },
+    {
+      "USBNode": "1-8",
+      "VID": "0a5c",
+      "PID": "5842",
+      "CurrentConfigurationValue": "1",
+      "File": "usb-descriptors/1-8-0a5c-5842.bin",
+      "Length": 287,
+      "SHA256": "2400e0921df0e0b3da3edc0ae7cdd9b636730baa289270dff6217ab57aa0e4ff"
+    },
+    {
+      "USBNode": "1-9",
+      "VID": "06cb",
+      "PID": "00bc",
+      "CurrentConfigurationValue": "1",
+      "File": "usb-descriptors/1-9-06cb-00bc.bin",
+      "Length": 57,
+      "SHA256": "e9a7c544f8fa6ac9f8656026bb523278b6c9cff440b23aa8480feb737ab0855e"
+    },
+    {
+      "USBNode": "2-2",
+      "VID": "0bda",
+      "PID": "565e",
+      "CurrentConfigurationValue": "1",
+      "File": "usb-descriptors/2-2-0bda-565e.bin",
+      "Length": 966,
+      "SHA256": "a1ac5fe11f8d932c9e6604e64f8f6ce20666aa4ec33a16dfb23cf290c3079927"
+    },
+    {
+      "USBNode": "2-4",
+      "VID": "413c",
+      "PID": "81e0",
+      "CurrentConfigurationValue": "2",
+      "File": "usb-descriptors/2-4-413c-81e0.bin",
+      "Length": 717,
+      "SHA256": "b51f62e67a2a79e04d56c35f7ddfac3a87f3935f5acce752604f493f64674fc2"
+    }
+  ],
+  "PlatformReadings": {
+    "PCIConfigWrites": false,
+    "MSRWrites": false,
+    "FirmwareVariablesWritten": false,
+    "MSRModuleLoadedByCollector": false,
+    "MSRModuleLoadPolicy": "Only bundled msr module, with allow_writes=off if not already loaded",
+    "Sources": [
+      "https://github.com/torvalds/linux/blob/v6.18/arch/x86/kernel/early-quirks.c",
+      "https://github.com/torvalds/linux/blob/v6.18/include/drm/intel/i915_drm.h",
+      "https://github.com/torvalds/linux/blob/v6.18/arch/x86/kernel/msr.c",
+      "https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Register/Intel/Msr/SandyBridgeMsr.h"
+    ],
+    "GraphicsPreallocation": {
+      "BDF": "0000:00:02.0",
+      "Vendor": "0x8086",
+      "Device": "0x9b41",
+      "RegisterOffset": "0x50",
+      "Length": 2,
+      "State": "READ",
+      "BytesHex": "c102",
+      "RawWordHex": "0x02c1",
+      "GMSHex": "0x02",
+      "GraphicsStolenPreallocatedMiB": 64,
+      "GTTMemoryMiB": 8,
+      "Limit": "Hardware graphics preallocation at this boot, not DVMT maximum shared memory or an IFR setup variable."
+    },
+    "MSRModuleWasAlreadyLoaded": true,
+    "MSRAllowWritesParameter": "default",
+    "CFGLockPerOnlineCPU": [
+      {
+        "CPU": 0,
+        "Register": "0xe2",
+        "OpenMode": "O_RDONLY",
+        "State": "READ",
+        "BytesHex": "0880001e00000000",
+        "RawValueHex": "0x000000001e008008",
+        "CFGLockBit15": true
+      },
+      {
+        "CPU": 1,
+        "Register": "0xe2",
+        "OpenMode": "O_RDONLY",
+        "State": "READ",
+        "BytesHex": "0880001e00000000",
+        "RawValueHex": "0x000000001e008008",
+        "CFGLockBit15": true
+      },
+      {
+        "CPU": 2,
+        "Register": "0xe2",
+        "OpenMode": "O_RDONLY",
+        "State": "READ",
+        "BytesHex": "0880001e00000000",
+        "RawValueHex": "0x000000001e008008",
+        "CFGLockBit15": true
+      },
+      {
+        "CPU": 3,
+        "Register": "0xe2",
+        "OpenMode": "O_RDONLY",
+        "State": "READ",
+        "BytesHex": "0880001e00000000",
+        "RawValueHex": "0x000000001e008008",
+        "CFGLockBit15": true
+      },
+      {
+        "CPU": 4,
+        "Register": "0xe2",
+        "OpenMode": "O_RDONLY",
+        "State": "READ",
+        "BytesHex": "0880001e00000000",
+        "RawValueHex": "0x000000001e008008",
+        "CFGLockBit15": true
+      },
+      {
+        "CPU": 5,
+        "Register": "0xe2",
+        "OpenMode": "O_RDONLY",
+        "State": "READ",
+        "BytesHex": "0880001e00000000",
+        "RawValueHex": "0x000000001e008008",
+        "CFGLockBit15": true
+      },
+      {
+        "CPU": 6,
+        "Register": "0xe2",
+        "OpenMode": "O_RDONLY",
+        "State": "READ",
+        "BytesHex": "0880001e00000000",
+        "RawValueHex": "0x000000001e008008",
+        "CFGLockBit15": true
+      },
+      {
+        "CPU": 7,
+        "Register": "0xe2",
+        "OpenMode": "O_RDONLY",
+        "State": "READ",
+        "BytesHex": "0880001e00000000",
+        "RawValueHex": "0x000000001e008008",
+        "CFGLockBit15": true
+      }
+    ],
+    "CFGStatus": "LOCKED"
+  },
+  "IIOSensors": [
+    {
+      "Name": "magn_3d",
+      "ChannelNames": [
+        "in_magn_hysteresis",
+        "in_magn_offset",
+        "in_magn_sampling_frequency",
+        "in_magn_scale",
+        "in_magn_x_raw",
+        "in_magn_y_raw",
+        "in_magn_z_raw",
+        "in_rot_from_north_magnetic_tilt_comp_raw",
+        "in_rot_hysteresis",
+        "in_rot_offset",
+        "in_rot_sampling_frequency",
+        "in_rot_scale"
+      ]
+    },
+    {
+      "Name": "relative_orientation",
+      "ChannelNames": [
+        "in_rot_hysteresis",
+        "in_rot_offset",
+        "in_rot_quaternion_raw",
+        "in_rot_sampling_frequency",
+        "in_rot_scale"
+      ]
+    },
+    {
+      "Name": "incli_3d",
+      "ChannelNames": [
+        "in_incli_hysteresis",
+        "in_incli_offset",
+        "in_incli_sampling_frequency",
+        "in_incli_scale",
+        "in_incli_x_raw",
+        "in_incli_y_raw",
+        "in_incli_z_raw"
+      ]
+    },
+    {
+      "Name": "gravity",
+      "ChannelNames": [
+        "in_gravity_hysteresis",
+        "in_gravity_offset",
+        "in_gravity_sampling_frequency",
+        "in_gravity_scale",
+        "in_gravity_x_raw",
+        "in_gravity_y_raw",
+        "in_gravity_z_raw"
+      ]
+    },
+    {
+      "Name": "als",
+      "ChannelNames": [
+        "in_colortemp_hysteresis",
+        "in_colortemp_hysteresis_relative",
+        "in_colortemp_offset",
+        "in_colortemp_raw",
+        "in_colortemp_sampling_frequency",
+        "in_colortemp_scale",
+        "in_illuminance_hysteresis",
+        "in_illuminance_hysteresis_relative",
+        "in_illuminance_offset",
+        "in_illuminance_raw",
+        "in_illuminance_sampling_frequency",
+        "in_illuminance_scale",
+        "in_intensity_both_raw",
+        "in_intensity_hysteresis",
+        "in_intensity_hysteresis_relative",
+        "in_intensity_offset",
+        "in_intensity_sampling_frequency",
+        "in_intensity_scale"
+      ]
+    },
+    {
+      "Name": "gyro_3d",
+      "ChannelNames": [
+        "in_anglvel_hysteresis",
+        "in_anglvel_offset",
+        "in_anglvel_sampling_frequency",
+        "in_anglvel_scale",
+        "in_anglvel_x_raw",
+        "in_anglvel_y_raw",
+        "in_anglvel_z_raw"
+      ]
+    },
+    {
+      "Name": "geomagnetic_orientation",
+      "ChannelNames": [
+        "in_rot_hysteresis",
+        "in_rot_offset",
+        "in_rot_quaternion_raw",
+        "in_rot_sampling_frequency",
+        "in_rot_scale"
+      ]
+    },
+    {
+      "Name": "dev_rotation",
+      "ChannelNames": [
+        "in_rot_hysteresis",
+        "in_rot_offset",
+        "in_rot_quaternion_raw",
+        "in_rot_sampling_frequency",
+        "in_rot_scale"
+      ]
+    },
+    {
+      "Name": "accel_3d",
+      "ChannelNames": [
+        "in_accel_hysteresis",
+        "in_accel_offset",
+        "in_accel_sampling_frequency",
+        "in_accel_scale",
+        "in_accel_x_raw",
+        "in_accel_y_raw",
+        "in_accel_z_raw"
+      ]
+    }
+  ],
+  "NVMe": [
+    {
+      "Model": "KBG40ZNS256G NVMe KIOXIA 256GB",
+      "Firmware": "10410106"
+    }
+  ],
+  "Notes": []
+}

@@ -1,0 +1,72 @@
+====================================================================
+PANDUAN LENGKAP & AMAN UPDATE HACKINTOSH KE MACOS SEQUOIA (15.x)
+Khusus Unit: Dell Latitude 7210 2-in-1 (Intel Core i7-10610U / UHD 620)
+Tanggal Optimasi: 02 November 2026
+====================================================================
+
+I. RINGKASAN PERUBAHAN & OPTIMASI YANG TELAH DILAKUKAN
+--------------------------------------------------------------------
+1. Cadangan Lengkap EFI Sebelumnya:
+   - Folder cadangan tersimpan utuh di flashdisk:
+     /Volumes/RESCUE1302/CADANGAN-EFI-ORIGINAL-SONOMA/
+   - Cadangan konfigurasi tersimpan di:
+     /Volumes/RESCUE1302/EFI/OC/config.plist.before_sequoia_update
+
+2. Pembukaan Pembatasan Kernel (MaxKernel):
+   - Sebelumnya, seluruh kext inti dibatasi hanya sampai Darwin 23.99.99 (Sonoma).
+   - Seluruh kext inti (Lilu, VirtualSMC, WhateverGreen, AppleALC, VoodooI2C,
+     VoodooPS2, USBToolBox, dll) telah dibuka agar otomatis dimuat pada
+     macOS Sequoia (Darwin 24.x).
+
+3. Penanganan Wi-Fi Otomatis (Dual-Boot Sonoma & Sequoia Safe):
+   - macOS Sonoma (Darwin 23.x): Tetap memakai AirportItlwm.kext (menu Wi-Fi native).
+   - macOS Sequoia (Darwin 24.x): Otomatis beralih ke itlwm.kext tanpa crash/panic.
+   - Aplikasi HeliPort.app telah diekstrak dan dipasang di /Applications/HeliPort.app.
+
+4. Penambahan Mode Verbose (-v) pada boot-args:
+   - Memastikan selama instalasi update Anda dapat melihat progres teks log
+     secara transparan sehingga tidak khawatir jika sistem sedang memproses restart.
+
+
+II. TAHAPAN PROSES UPDATE KE MACOS SEQUOIA
+--------------------------------------------------------------------
+LANGKAH 1: PERSIAPAN SEBELUM UPDATE
+1. Pastikan laptop Dell Latitude 7210 terhubung ke charger (AC adapter).
+2. Biarkan flashdisk RESCUE1302 tetap tercolok pada port USB.
+3. Pastikan ruang kosong di SSD (partisi macOS) minimal 25 GB - 35 GB.
+
+LANGKAH 2: MEMULAI DOWNLOAD & UPDATE
+1. Buka System Settings (Pengaturan Sistem) di macOS Sonoma.
+2. Masuk ke General > Software Update.
+3. Ketika muncul pembaruan "macOS Sequoia", klik "Upgrade Now" / "Update Now".
+4. macOS akan mendownload installer (sekitar 12 - 13 GB).
+
+LANGKAH 3: PROSES REBOOT & INSTALASI (PENTING!)
+1. Setelah selesai download, sistem akan meminta restart.
+2. Saat laptop menyala ulang dan masuk ke menu OpenCore Boot Picker:
+   - Perhatikan entri boot: OpenCore biasanya akan otomatis memilih entri
+     bernama "macOS Installer" atau "Macintosh HD".
+   - JANGAN MENCABUT FLASHDISK selama proses instalasi berlangsung.
+   - Laptop akan melakukan reboot 2 hingga 4 kali. Ini sangat wajar!
+   - Di setiap reboot, biarkan OpenCore boot otomatis ke entri installer
+     sampai akhirnya masuk kembali ke desktop dengan nama disk utama Anda.
+
+LANGKAH 4: SETELAH MASUK KE DESKTOP MACOS SEQUOIA
+1. Koneksi Wi-Fi:
+   - Di macOS Sequoia, buka Finder > Applications > jalankan "HeliPort".
+   - Ikon Wi-Fi HeliPort akan muncul di menu bar kanan atas.
+   - Klik ikon tersebut, pilih SSID Wi-Fi Anda, dan masukkan password.
+   - Anda bisa menambahkan HeliPort ke "Login Items" (System Settings > General >
+     Login Items) agar selalu otomatis menyala saat laptop dihidupkan.
+2. Periksa Fungsi Perangkat:
+   - Trackpad / Keyboard / Touchscreen
+   - Suara (Audio AppleALC)
+   - Baterai dan pengaturan kecerahan layar
+
+III. LANGKAH PENYELAMATAN (JIKA TERJADI KENDALA)
+--------------------------------------------------------------------
+Jika sewaktu-waktu terjadi kendala atau Anda ingin membatalkan/kembali ke Sonoma:
+1. Matikan laptop, nyalakan kembali dan tekan F12 untuk memilih boot dari flashdisk.
+2. Folder cadangan asli tersedia di:
+   CADANGAN-EFI-ORIGINAL-SONOMA pada flashdisk RESCUE1302.
+====================================================================

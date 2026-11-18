@@ -1,0 +1,9 @@
+NAME        TYPE   SIZE MODEL                          TRAN LOG-SEC PHY-SEC
+loop0       loop   1.1G                                         512     512
+sda         disk  58.4G Y08                            usb      512     512
+└─sda1      part  58.4G                                         512     512
+mmcblk0     disk 119.1G                                mmc      512     512
+└─mmcblk0p1 part 119.1G                                mmc      512     512
+nvme0n1     disk 238.5G KBG40ZNS256G NVMe KIOXIA 256GB nvme     512     512
+├─nvme0n1p1 part   200M                                nvme     512     512
+└─nvme0n1p2 part 238.2G                                nvme     512     512

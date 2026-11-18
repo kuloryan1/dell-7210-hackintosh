@@ -1,0 +1,29 @@
+PENGAMBILAN TAMBAHAN KONFIGURASI MODEM, MEMORI GRAFIS, DAN CFG LOCK
+
+Dua pengambilan sebelumnya sudah berhasil. Descriptor Wacom dan Alps sudah
+lengkap. Pengambilan ini melengkapi data lain yang belum tersedia:
+1. Cache descriptor USB lengkap, khususnya konfigurasi aktif modem bernilai 2.
+2. Register GGC Intel Comet Lake untuk alokasi memori grafis sebelum OS.
+3. Register CPU MSR 0xE2 bit 15 untuk status CFG Lock pada CPU yang online.
+
+Kolektor hanya membaca register PCI dan CPU. Bila pembaca MSR belum aktif,
+ia memuat modul msr bawaan SystemRescue dengan allow_writes=off. Modul ini
+berjalan pada sesi Linux live dan berakhir saat reboot; tidak memasang driver
+Windows atau menulis firmware. Jika pembacaan tidak tersedia, hasil UNKNOWN
+dan catatannya disimpan; tidak ada percobaan membuka lock dengan menulis.
+
+LANGKAH
+1. Simpan pekerjaan Windows. Biarkan flashdisk RESCUE1302 serta cover keyboard
+   dan touchpad terpasang.
+2. Restart manual. Tekan F12 saat logo Dell, pilih USB UEFI, lalu pilih opsi
+   default SystemRescue seperti dua boot sebelumnya.
+3. Tunggu AUDIT SELESAI. Ringkasan kini memuat Descriptor USB, CFG Lock, dan
+   graphics preallocated MiB. Nilai UNKNOWN/None tetap perlu ditinjau dari log.
+4. Setelah kembali ke prompt, jalankan reboot manual dan masuk Windows.
+5. Pasang kembali USB agar berkas hasil dapat dibaca dari chat ini.
+
+Hasil pertama dan kedua tetap tersimpan. Hasil tambahan memakai nama folder
+baru, tidak menghapus data atau memformat ulang flashdisk. Tidak ada restart
+otomatis, SET_CONFIGURATION, reset perangkat, perubahan partisi internal,
+penulisan NVRAM/BIOS/register, atau pengambilan serial, IP/MAC, SIM/IMEI.
+Ini pengambilan metadata, bukan pengujian fungsi macOS.

@@ -1,0 +1,14 @@
+{
+  "BIOSMatchesWindows": true,
+  "DSDTMatchesWindows": true,
+  "AllKnownWindowsSSDTsFound": true,
+  "WindowsExpectedSSDT": 8,
+  "NativeUniqueSSDT": 17,
+  "NativeSSDTNotInWindowsExport": 13,
+  "BadStandardACPIChecksums": [],
+  "AudioCodecFiles": 2,
+  "HIDDescriptorFiles": 0,
+  "IIOSensorsFound": 9,
+  "MacOSFunctionalityTested": false,
+  "Limit": "Compare raw files and firmware identity before declaring ACPI coverage complete; this is not a macOS test."
+}

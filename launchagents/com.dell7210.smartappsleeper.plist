@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.dell7210.smartappsleeper</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/kuloryan/Applications/Smart App Sleeper/Smart App Sleeper.app/Contents/MacOS/smart-app-sleeper</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/smart-app-sleeper.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/smart-app-sleeper.log</string>
+</dict>
+</plist>

@@ -1,0 +1,11 @@
+{
+  "Output": "/run/archiso/bootmnt/HACKINTOSH-AUDIT/hasil-linux-20261024-233732-675",
+  "ZIP": "/run/archiso/bootmnt/HACKINTOSH-AUDIT/hasil-linux-20261024-233732-675.zip",
+  "ACPITables": 33,
+  "UniqueSSDT": 17,
+  "MacOSVerified": false,
+  "Notes": [
+    "HID report read failed: 0003:044E:1218.0001: Invalid argument",
+    "HID report read failed: 0018:056A:48CD.0002: Invalid argument"
+  ]
+}

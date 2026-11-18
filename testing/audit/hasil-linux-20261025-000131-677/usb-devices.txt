@@ -1,0 +1,15 @@
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 002: ID 1a86:809d QinHeng Electronics USB2.0 HUB
+Bus 001 Device 003: ID 058f:6387 Alcor Micro Corp. Flash Drive
+Bus 001 Device 004: ID 349c:0418 Generic USB2.0 Device
+Bus 001 Device 005: ID 044e:1218 Alps Electric Co., Ltd Electric Touchpad
+Bus 001 Device 006: ID 1a86:5394 QinHeng Electronics USB 10/100 LAN
+Bus 001 Device 007: ID 0bda:5671 Realtek Semiconductor Corp. Integrated_Webcam_5M
+Bus 001 Device 008: ID 0a5c:5842 Broadcom Corp. 58200
+Bus 001 Device 009: ID 06cb:00bc Synaptics, Inc. 
+Bus 001 Device 010: ID 8087:0026 Intel Corp. AX201 Bluetooth
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 002 Device 002: ID 0bda:565e Realtek Semiconductor Corp. Integrated_Webcam_8M
+Bus 002 Device 003: ID 413c:81e0 Dell Computer Corp. DW5821e-eSIM Snapdragon X20 LTE
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub

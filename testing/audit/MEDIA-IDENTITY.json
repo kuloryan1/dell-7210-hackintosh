@@ -1,0 +1,10 @@
+{
+  "Purpose": "Native Dell Hackintosh hardware collection",
+  "AllowedModel": "Latitude 7210 2-in-1",
+  "USBBytes": 62723719168,
+  "CollectorSHA256": "ab20f210507db93cc9be6d2cc8f2fb589630180fff12ecd263c74467f9f124d1",
+  "PreparedAtUtc": "2026-10-24T16:22:26.5772512Z",
+  "WritesAllowed": "New inventory/result/log files on this USB; remount this already-mounted boot USB rw if needed; no other disk mount or partition operation",
+  "UpdatedAtWindowsLocal": "2026-10-25T00:26:34.5655613+07:00",
+  "UpdateReason": "Read cached USB configurations, Comet Lake GGC PCI register and CPU MSR E2; may load bundled Linux msr module with allow_writes=off; no register/firmware writes"
+}
