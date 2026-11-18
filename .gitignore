@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might contain sensitive data (Serial Numbers, MLB, ROM)
+# Simpan config.plist tanpa serial saat upload ke public repo jika perlu
